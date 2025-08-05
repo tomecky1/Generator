@@ -29,7 +29,7 @@ const PasswordDisplay = ({ formData }) => {
       try {
         await navigator.clipboard.writeText(generatedPassword);
         setShowCopyMessage(true);
-        setTimeout(() => setShowCopyMessage(false), 3000); // Ukryj komunikat po 3 sekundach
+        setTimeout(() => setShowCopyMessage(false), 4000); // Ukryj komunikat po 4 sekundach
       } catch (err) {
         console.error("Nie udało się skopiować hasła:", err);
       }
