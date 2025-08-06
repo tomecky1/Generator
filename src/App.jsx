@@ -5,9 +5,9 @@ import PasswordDisplay from "./components/PasswordDisplay/PasswordDisplay";
 function App() {
   const [formData, setFormData] = useState({
     length: 8,
-    uppercase: true,
-    lowercase: true,
-    numbers: true,
+    uppercase: false,
+    lowercase: false,
+    numbers: false,
     symbols: false,
   });
 
